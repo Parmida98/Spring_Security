@@ -5,6 +5,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+// behövs inte när backend och frontend är helt separata från varandra
 
 @Configuration
 @EnableWebMvc   // Used in Combination with @Config & WebMvcConfigure / Spring använder dina egna WebMvc-inställningar (baserat på WebMvcConfigurer). Man använder detta när man vill styra routing, resurser, view controllers m.m. manuellt.
